@@ -9,7 +9,7 @@ class ItemCatalog extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Каталог коктейлей'),
+        title: Text('Каталог блюд'),
       ),
       body: Container(
         margin: const EdgeInsets.all(30.0),
@@ -52,7 +52,7 @@ Widget _buildItem(String imgUrl) => Container(
         color: Colors.lime,
       ),
       child: Text(
-        'Коктейль',
+        'Блюдо',
         style: TextStyle(
           fontSize: 18.0,
           color: Colors.white,
