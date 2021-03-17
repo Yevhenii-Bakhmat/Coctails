@@ -58,7 +58,7 @@ class ItemCart extends StatelessWidget {
                 IconButton(
                     icon: Icon(
                       Icons.add_circle_outline,
-                      color: Colors.black12,
+                      color: Colors.black,
                     ),
                     onPressed: () {
                       Provider.of<CartDataProvider>(context, listen: false)
